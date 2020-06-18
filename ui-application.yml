@@ -2,8 +2,8 @@ management.endpoints.web.exposure.include: "*"
 
 ribbon:
   serverListRefreshInterval: 1000
-  ConnectTimeout: 6000
-  ReadTimeout: 3000
+  ConnectTimeout: 600000
+  ReadTimeout: 300000
 
 hystrix.command.default.execution.isolation:
     thread.timeoutInMilliseconds: 10000
